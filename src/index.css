@@ -73,19 +73,19 @@ img{
         width: var(--container-width-md);
     }
     h1{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     h2{
-        font-size: 1.6rem;
+        font-size: 1.2rem;
     }
     h3{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }
 
 @media screen and (max-width: 600px){
     h1{
-        font-size: 2.2rem;
+        font-size: 2rem;
         line-height: 1.3;
     }
 }
