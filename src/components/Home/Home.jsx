@@ -1,10 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "../Home/home.css";
 import profile from "../../assets/profile.png";
 import Socials from "./Socials";
 
 function Home() {
+  const navigate = useNavigate();
+
+  const navigation = () => {
+    navigate("/contact");
+  };
+
   return (
     <header className="home">
       <div className="container home_container">
@@ -12,9 +18,9 @@ function Home() {
           <h3 style={{ color: "var(--color-light)" }}>Hello I'm</h3>
           <h1>Karishma Tejwani</h1>
           <h3 style={{ color: "gray" }}>Front-end Developer</h3>
-          <Link to={"/contact"} className="btn">
+          <button className="btn" onClick={() => navigation()}>
             Let's Connect
-          </Link>
+          </button>
           <Socials />
         </div>
         <div className="home-right">

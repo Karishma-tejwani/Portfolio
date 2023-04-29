@@ -76,25 +76,15 @@
 
 /* ----Media Queries---- */
 @media screen and (max-width: 1024px){
-    .container{
-        width: var(--container-width-md);
+    .home{
+        height: fit-content;
+        padding: 12rem 0;
     }
-    h1{
-        font-size: 2rem;
+    .home_container{
+        gap: 0;
     }
-    h3{
-        font-size: 1.6rem;
-    }
-}
-
-@media screen and (max-width: 1024px){
-    .container{
-        width: var(--container-width-md);
-    }
-    h1{
-        font-size: 2rem;
-    }
-    h3{
-        font-size: 1.6rem;
+    .home-circle{
+        width: 16rem;
+        height: 16rem;
     }
 }
