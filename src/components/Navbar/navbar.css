@@ -31,3 +31,68 @@ nav{
     display: flex;
     gap: 3.5rem;
 }
+
+.navLinks a{
+    transition: var(--transition);
+}
+
+.navLinks a:hover{
+    color: goldenrod;
+}
+
+.active-nav{
+    position: relative;
+    /* color: goldenrod; */
+}
+
+.active-nav::after{
+    content: "";
+    display: block;
+    width: 1.6rem;
+    height: 1.6rem;
+    background: var(--color-bg-variant);
+    position: absolute;
+    left: calc(50% - 0.6rem);
+    transform: rotate(45deg);
+    margin-top: 0.9rem;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+    .nav_toggle_btn{
+        display: inline-block;
+        background: transparent;
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+    .nav_toggle_btn svg{
+        color: var(--color-white);
+    }
+    .navLinks{
+        position: absolute;
+        top: 90%;
+        right: 0;
+        flex-direction: column;
+        gap: 0;
+    }
+    .active-nav, .active-nav::after{
+        display: none;
+    }
+
+    .navLinks li a{
+        background-color: var(--color-bg-variant);
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 1rem 5rem 1rem 3rem;
+
+    }
+    .show_nav{
+        display: flex;
+    }
+
+    .hide_nav{
+        display: none;
+    }
+}
