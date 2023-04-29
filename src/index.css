@@ -9,13 +9,13 @@
 }
 
 :root{
-    --color-bg: #0d1014;
+    --color-bg: #06080b;
     --color-bg-variant: #0d1015;
-    --color-primary: #06080b;
+    --color-primary: #0d1014;
     --color-primary-variant: rgba(10, 11, 11, 0.4);
-    --color-white: #ffffffe5;
+    --color-white: #f5f4f4e5;
     --color-light: rgba(255, 255, 255, 0.6);
-
+    
     --transition: all 400ms ease;
 
     --container-width-lg: 75%;
@@ -34,6 +34,35 @@ html{
 body{
     font-family: "Alkatra";
     background: var(--color-bg);
-    color: var(--color-white);
+    color: var(--color-light);
     line-height: 1.7;
+}
+
+.container{
+    width: var(--container-width-lg);
+    max-width: 1920px;
+    margin-inline: auto;
+}
+
+h1,h2,h3,h4,h5{
+    line-height: 1.2;
+    color: var(--color-white);
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+a{
+    color: var(--color-light);
+}
+
+img{
+    display: block;
+    object-fit: cover;
+    width: 100%;
 }
