@@ -32,7 +32,7 @@ const Navbar = () => {
           <li>
             <NavLink to={"/contact"}>Contact</NavLink>
           </li>
-          <span className="navbar-text">
+          {/* <span className="navbar-text">
             <div className="social-icon">
               <a
                 href="https://www.linkedin.com/in/karishma-tejwani-5424a2153/"
@@ -44,7 +44,7 @@ const Navbar = () => {
                 <img src={github} alt="github" />
               </a>
             </div>
-          </span>
+          </span> */}
         </ul>
         <button className="nav_toggle_btn">
           <GoThreeBars />

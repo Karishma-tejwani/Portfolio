@@ -1,0 +1,33 @@
+nav{
+    width: 100vw;
+    height: 6.5rem;
+    background: var(--color-bg-variant);
+    display: grid;
+    place-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+/* For small and medium screens */
+.nav_toggle_btn{
+    display: none;
+}
+
+.nav_container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.logo{
+    width: 7rem;
+}
+
+.navLinks{
+    display: flex;
+    gap: 3.5rem;
+}
