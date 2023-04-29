@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import linkedin from "../../assets/linkedin.png";
-import github from "../../assets/github.png";
 import logo from "../../assets/logo.png";
 import { GoThreeBars } from "react-icons/go";
 import { MdOutlineClose } from "react-icons/md";
@@ -68,19 +66,6 @@ const Navbar = () => {
               Contact
             </NavLink>
           </li>
-          {/* <span className="navbar-text">
-            <div className="social-icon">
-              <a
-                href="https://www.linkedin.com/in/karishma-tejwani-5424a2153/"
-                target="_blank"
-              >
-                <img src={linkedin} alt="linkedin" />
-              </a>
-              <a href="https://github.com/Karishma-tejwani" target="_blank">
-                <img src={github} alt="github" />
-              </a>
-            </div>
-          </span> */}
         </ul>
         <button
           className="nav_toggle_btn"
