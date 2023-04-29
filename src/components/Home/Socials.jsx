@@ -8,10 +8,10 @@ function Socials() {
         href="https://www.linkedin.com/in/karishma-tejwani-5424a2153/"
         target="_blank"
       >
-        <BsLinkedin />
+        <BsLinkedin size={40} />
       </a>
       <a href="https://github.com/Karishma-tejwani" target="_blank">
-        <BsGithub />
+        <BsGithub size={40} />
       </a>
     </div>
   );
