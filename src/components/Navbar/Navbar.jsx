@@ -13,10 +13,13 @@ const Navbar = () => {
   return (
     <nav>
       <div className="container nav_container">
-        <Link to={"/"} className="logo">
+        <Link to={"/"} className="logo" onClick={() => setShow(false)}>
           <img src={logo} alt="logo" />
         </Link>
-        <ul className={`navLinks ${isShow ? "show_nav" : "hide_nav"}`}>
+        <ul
+          className={`navLinks ${isShow ? "show_nav" : "hide_nav"}`}
+          onClick={() => setShow((prev) => !prev)}
+        >
           <li>
             <NavLink
               to={"/"}
@@ -79,7 +82,10 @@ const Navbar = () => {
             </div>
           </span> */}
         </ul>
-        <button className="nav_toggle_btn" onClick={() => setShow(!isShow)}>
+        <button
+          className="nav_toggle_btn"
+          onClick={() => setShow((prev) => !prev)}
+        >
           {isShow ? <MdOutlineClose /> : <GoThreeBars />}
         </button>
       </div>
