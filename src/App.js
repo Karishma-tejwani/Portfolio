@@ -14,9 +14,9 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Header />
+        <Navbar />
         <Routes>
-          <Route path="/" element={<Navbar />} />
+          <Route path="/" element={<Header />} />
           <Route path="/about" element={<About />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/experience" element={<Experience />} />
