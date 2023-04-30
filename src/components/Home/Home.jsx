@@ -1,8 +1,8 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
-import "../Home/home.css";
+import { useNavigate } from "react-router-dom";
 import profile from "../../assets/profile.png";
 import Socials from "./Socials";
+import "../Home/home.css";
 
 function Home() {
   const navigate = useNavigate();

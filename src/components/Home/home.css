@@ -84,7 +84,31 @@
         gap: 0;
     }
     .home-circle{
+        width: 25rem;
+        height: 25rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .home{
+        margin-top: 0;
+        padding: 12rem 0;
+    }
+    .home_container{
+        grid-template-columns: 1fr;
+    }
+    .home-left{
+        text-align: center;
+        gap: 2rem;
+    }
+    .home-img{
+        margin-top: 30px;
+    }
+    .home-circle{
         width: 10rem;
         height: 10rem;
+    }
+    .social-icon{
+        display: none;
     }
 }
