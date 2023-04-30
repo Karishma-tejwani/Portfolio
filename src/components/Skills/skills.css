@@ -1,0 +1,160 @@
+.skills-container{
+    position: relative;
+    background: rgb(204,178,160);
+    background: linear-gradient(0deg, rgba(204,178,160,1) 0%, rgba(171,178,181,1) 100%);
+    margin-top: -4%;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .skills-container .logo{
+    position: inherit;
+    margin-top: -5px;
+    height: 520px;
+    width: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    user-select: none;
+  }
+  
+  .skills-container .logo .main-img{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    cursor: pointer;
+  }
+  
+  .skills-container .logo .main-img.active{
+    animation: spin 8s linear 1s infinite;
+  }
+  
+  @keyframes spin {
+    to{
+        transform: rotate(360deg);
+    }
+  }
+  
+  .skills-container .logo .circle{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(4,4,44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s ease;
+    opacity: 0;
+  }
+  
+  .skills-container .logo .main-img.active .circle{
+    opacity: 1;
+  }
+  
+  .skills-container .logo .main-img.active .circle:nth-child(1){
+    background: url(../../assets/html5.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    transform: translateY(-210%);
+  }
+  
+  .skills-container .logo .main-img.active .circle:nth-child(2){
+    background: url(../../assets/css3.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    transform: translate(150%, -150%);
+  }
+  
+  .skills-container .logo .main-img.active .circle:nth-child(3){
+    background: url(../../assets/jira.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    transform: translate(210%);
+  }
+  
+  .skills-container .logo .main-img.active .circle:nth-child(4){
+    background: url(../../assets/api.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    transform: translate(150%, 150%);
+  }
+  
+  .skills-container .logo .main-img.active .circle:nth-child(5){
+    background: url(../../assets/postman.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    transform: translateY(210%);
+  }
+  
+  .skills-container .logo .main-img.active .circle:nth-child(6){
+    background: url(../../assets/javascript.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    transform: translate(-150%, 150%);
+  }
+  
+  .skills-container .logo .main-img.active .circle:nth-child(7){
+    background: url(../../assets/mysql.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    transform: translateX(-210%);
+  }
+  
+  .skills-container .logo .main-img.active .circle:nth-child(8){
+    background: url(../../assets/react.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    transform: translate(-150%, -150%);
+  }
+  
+  .skills-container img{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 3px solid rgb(108, 161, 197);
+    transform: translate(-200px);
+    opacity: 0;
+    animation: fade-in 1s ease 1 0.5s forwards;
+  }
+  
+  @keyframes fade-in {
+    to{
+        transform: translate(0);
+        opacity: 1;
+    }
+  }
+  
+  .skills-container h1 {
+      font-size: 50px;
+  }
+  
+  @media screen and (max-width: 1024px){
+    .skills-container{
+      margin-top: -5%;
+    }
+  }
+  
+  @media screen and (max-width: 600px){
+    .skills-container{
+      margin-top: -10%;
+    }
+  } 

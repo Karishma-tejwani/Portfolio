@@ -1,0 +1,126 @@
+.contact {
+    background: rgb(104,106,171);
+    background: linear-gradient(90deg, rgb(151, 152, 190) 0%, rgb(153, 151, 151) 50%, rgb(210, 201, 189) 100%);
+  }
+  
+  .contact-container{
+    display: grid;
+    grid-template-columns: 30% 45%;
+    gap: 10%;
+    justify-content: center;  
+  }
+  
+  .contact-opts{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  
+  .contact-img{
+    width:80%
+  }
+  
+  .contact-text{
+    width: 90%;
+    text-align: center;
+    margin-left: 4%;
+  }
+  
+  .contact-opt{
+    background: rgb(174, 175, 207);
+    width: 55%;
+    padding: 0.5rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    margin: 1rem 5rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+  }
+  
+  .contact-opt a{
+    text-decoration: none; 
+    color: blue;
+  }
+  
+  .contact-opt a:hover{
+    color: rgb(109, 30, 90); 
+  }
+  
+  .contact-opt:hover{
+    background: transparent;
+    border-color: var(--color-primary);
+    cursor: pointer;
+  }
+  .contact-btn{
+    width: 23%;
+  }
+  
+  @media screen and (max-width: 1024px){
+    .contact-container{
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      padding: 3%;
+      margin-left: 22%;
+    }   
+    .contact-img{
+      width: 55%;
+    }
+    .contact-text{
+      width: 57%;
+      text-align: center;
+      margin-left: 5%;
+    }
+    .contact-opt{
+      margin-left: 6%;
+    }
+    form{
+      margin-left: 5%;
+    }
+    .contact-btn{
+      width: 25%;
+      margin-left: 17%;
+    }
+  }
+  
+  @media screen and (max-width: 600px){
+    .contact-container{
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      padding: 3%;
+      margin-left: 22%;
+    }   
+    .contact-img{
+      width: 50%;
+    }
+    .contact-text{
+      text-align: center;
+      margin-left: 7%;
+    }
+    .contact-opt{
+      width: 60%;
+      margin-left: 7%;
+    }
+    form{
+      margin-left: 8%;
+    }
+    .contact-btn{
+      width: 45%;
+      margin-left: 8%;
+    }
+  }
+  
+  /* --------------Form---------------- */
+  form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  
+  input, textarea{
+    width: 60%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border-color: rgb(103, 101, 101);
+    resize: none;
+  }

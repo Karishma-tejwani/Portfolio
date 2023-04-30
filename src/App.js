@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Experience from "./components/Experience/Experience";
@@ -13,19 +12,17 @@ import Home from "./components/Home/Home";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <>
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/experience" element={<Experience />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<PageNotFound />} />
-        </Routes>
-        <Footer />
-      </BrowserRouter>
+        <Home />
+        <About />
+        <Skills />
+        <Experience />
+        <Projects />
+        <Contact />
+        {/* <PageNotFound /> */}
+        {/* <Footer /> */}
+      </>
     </>
   );
 }

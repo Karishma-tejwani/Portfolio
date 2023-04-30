@@ -5,11 +5,11 @@ import Socials from "./Socials";
 import "../Home/home.css";
 
 function Home() {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  const navigation = () => {
-    navigate("/contact");
-  };
+  // const navigation = () => {
+  //   navigate("/contact");
+  // };
 
   return (
     <header className="home">
@@ -18,9 +18,7 @@ function Home() {
           <h3 style={{ color: "var(--color-light)" }}>Hello I'm</h3>
           <h1>Karishma Tejwani</h1>
           <h3 style={{ color: "gray" }}>Front-end Developer</h3>
-          <button className="btn" onClick={() => navigation()}>
-            Let's Connect
-          </button>
+          <button className="btn">Let's Connect</button>
           <Socials />
         </div>
         <div className="home-right">
