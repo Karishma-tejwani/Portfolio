@@ -19,7 +19,7 @@ function Home() {
           <h1>Karishma Tejwani</h1>
           <h3 style={{ color: "gray" }}>Front-end Developer</h3>
           <a href="#contact" className="btn">
-            Let's Connect
+            Hire Me
           </a>
           <Socials />
         </div>
