@@ -18,7 +18,9 @@ function Home() {
           <h3 style={{ color: "var(--color-light)" }}>Hello I'm</h3>
           <h1>Karishma Tejwani</h1>
           <h3 style={{ color: "gray" }}>Front-end Developer</h3>
-          <button className="btn">Let's Connect</button>
+          <a href="#contact" className="btn">
+            Let's Connect
+          </a>
           <Socials />
         </div>
         <div className="home-right">

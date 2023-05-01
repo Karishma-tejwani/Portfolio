@@ -93,7 +93,7 @@ const Navbar = () => {
         >
           <li>
             <a
-              href={"#"}
+              href="#"
               className={({ isActive }) => (isActive ? "active-nav" : "")}
             >
               Home
@@ -101,15 +101,17 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href={"#about"}
-              className={({ isActive }) => (isActive ? "active-nav" : "")}
+              href="#about"
+              onClick={() => setShow("#about")}
+              className={isShow === "#about" ? "active-nav" : ""}
+              // className={({ isActive }) => (isActive ? "active-nav" : "")}
             >
               About
             </a>
           </li>
           <li>
             <a
-              href={"#skills"}
+              href="#skills"
               className={({ isActive }) => (isActive ? "active-nav" : "")}
             >
               Skills
@@ -117,7 +119,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href={"#experience"}
+              href="#experience"
               className={({ isActive }) => (isActive ? "active-nav" : "")}
             >
               Experience
@@ -125,7 +127,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href={"#projects"}
+              href="#projects"
               className={({ isActive }) => (isActive ? "active-nav" : "")}
             >
               Projects
@@ -133,7 +135,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href={"#contact"}
+              href="#contact"
               className={({ isActive }) => (isActive ? "active-nav" : "")}
             >
               Contact
