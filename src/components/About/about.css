@@ -1,10 +1,9 @@
 .about-heading{
     font-size: 50px;
+    text-align: center;
   }
   
   .about_container{
-    background: rgb(139,138,163);
-    background: linear-gradient(90deg, rgba(139,138,163,1) 0%, rgba(199,186,186,1) 35%, rgba(212,209,224,1) 100%);
     display: grid;
     grid-template-columns: 40% 45%;
     gap: 10%;
@@ -14,7 +13,7 @@
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: linear-gradient(45deg, transparent, #B8B8B8, transparent);
+    background: linear-gradient(45deg, transparent, rgb(55, 55, 61), transparent);
     display: grid;
     place-items: center;
   }
@@ -38,7 +37,7 @@
   }
   
   .card{
-    background: linear-gradient(90deg, rgb(211, 211, 215) 0%, rgb(211, 211, 215)  35%, rgb(211, 211, 215) 100%);
+    background: linear-gradient(90deg, var(--color-primary) 0%, var(--color-primary)  35%, var(--color-primary) 100%);
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
@@ -49,11 +48,10 @@
   
   .card:hover{
     background: transparent;
-    border-color: rgb(159, 148, 148);
   }
   
   .about_icon{
-    color: var(--color-primary);
+    color: rgb(150, 148, 148);
     font-size: 1.4rem;
     margin-bottom: 1rem;
   }
@@ -69,7 +67,7 @@
   
   .about_content p{
     margin: 2rem 0 2.6rem;
-    color: rgb(85, 82, 82);
+    color: rgb(131, 128, 128);
   }
   
   @media screen and (max-width: 1024px){

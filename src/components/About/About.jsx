@@ -5,9 +5,10 @@ import "../About/about.css";
 
 function About() {
   return (
-    <>
-      <h1 className="about-heading text-center">About Me</h1>
-      <div className="about_container my-5">
+    <section id="about">
+      <h1 className="about-heading">About Me</h1>
+
+      <div className="container about_container">
         <div className="about">
           <div className="about_img">
             <img src={about} alt="about image" />
@@ -16,29 +17,29 @@ function About() {
 
         <div className="about_content">
           <div className="cards">
-            <div className="card">
+            <article className="card">
               <center>
                 <TbAward className="about_icon" />
               </center>
               <h5>Experience</h5>
               <small>3+ years</small>
-            </div>
+            </article>
 
-            <div className="card">
+            <article className="card">
               <center>
                 <TbUsers className="about_icon" />
               </center>
               <h5>Clients</h5>
               <small>10+ Worldwide</small>
-            </div>
+            </article>
 
-            <div className="card">
+            <article className="card">
               <center>
                 <VscFolderActive className="about_icon" />
               </center>
               <h5>Projects</h5>
               <small>15+ Completed</small>
-            </div>
+            </article>
           </div>
 
           <p>
@@ -51,12 +52,12 @@ function About() {
             print, graphic or web designs. The passage is attributed to an
             unknown
           </p>
-          <a href="#contact" className="btn btn-primary">
-            Let's connect
+          <a href="#contact" className="btn btn-primary btn">
+            Let's Talk
           </a>
         </div>
       </div>
-    </>
+    </section>
   );
 }
 

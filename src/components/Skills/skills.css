@@ -1,7 +1,7 @@
 .skills-container{
     position: relative;
-    background: rgb(204,178,160);
-    background: linear-gradient(0deg, rgba(204,178,160,1) 0%, rgba(171,178,181,1) 100%);
+    /* background: rgb(204,178,160);
+    background: linear-gradient(0deg, rgba(204,178,160,1) 0%, rgba(171,178,181,1) 100%); */
     margin-top: -4%;
     padding: 50px 40px;
     display: flex;
