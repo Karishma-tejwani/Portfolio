@@ -41,7 +41,7 @@
       .skill__details h4 {
         letter-spacing: 0.1em;
         font-size: 1em;
-        color: rgb(87, 87, 147);
+        color: #00ffff;
       }
   
       ul {
@@ -62,7 +62,7 @@
         }
 
         ul>li :hover{
-          color: rgb(87, 87, 147);
+          color: #00ffff;
         }
   
     .skill__cloud {
@@ -82,7 +82,7 @@
   
       /* Change color of each text in sphere on hover   */
       .tagcloud--item {
-        color: rgb(87, 87, 147);
+        color: #00ffff;
         text-transform: uppercase;
       }
   
