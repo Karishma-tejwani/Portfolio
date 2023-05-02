@@ -37,12 +37,11 @@ nav{
 }
 
 .navLinks a:hover{
-    color: goldenrod;
+    color: rgb(87, 87, 147);
 }
 
 .active-nav{
     position: relative;
-    /* color: goldenrod; */
 }
 
 .active-nav::after{
