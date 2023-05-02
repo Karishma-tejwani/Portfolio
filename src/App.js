@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Experience from "./components/Experience/Experience";
@@ -12,17 +13,35 @@ import Home from "./components/Home/Home";
 function App() {
   return (
     <>
-      <>
-        <Navbar />
-        <Home />
-        <About />
-        <Skills />
-        <Experience />
-        <Projects />
-        <Contact />
-        {/* <PageNotFound /> */}
-        {/* <Footer /> */}
-      </>
+      <BrowserRouter>
+        <Routes>
+          <Route
+            exact
+            path="/"
+            element={
+              <>
+                <Navbar />
+                <Home />
+                <About />
+                <Skills />
+                <Experience />
+                <Projects />
+                <Contact />
+                {/* <Footer /> */}
+              </>
+            }
+          />
+        </Routes>
+      </BrowserRouter>
+      {/* <Navbar />
+      <Home />
+      <About />
+      <Skills />
+      <Experience />
+      <Projects />
+      <Contact /> */}
+      {/* <PageNotFound /> */}
+      {/* <Footer /> */}
     </>
   );
 }
