@@ -30,20 +30,7 @@
   position: relative;
   display: inline-block;
 }
-  
-    /* @keyframes headingAnimation {
-      0% {
-        left: 0;
-        font-size: 2em;
-      }
-      100% {
-        left: -43%;
-        font-size: 0.7em;
-        letter-spacing: 0.05em;
-        color: #ffffff;
-      }
-    } */
-  
+
     .skill__info {
       height: 100%;
     }
@@ -54,7 +41,7 @@
       .skill__details h4 {
         letter-spacing: 0.1em;
         font-size: 1em;
-        color: goldenrod;
+        color: rgb(87, 87, 147);
       }
   
       ul {
@@ -75,7 +62,7 @@
         }
 
         ul>li :hover{
-          color: goldenrod;
+          color: rgb(87, 87, 147);
         }
   
     .skill__cloud {
@@ -95,7 +82,7 @@
   
       /* Change color of each text in sphere on hover   */
       .tagcloud--item {
-        color: goldenrod;
+        color: rgb(87, 87, 147);
         text-transform: uppercase;
       }
   
