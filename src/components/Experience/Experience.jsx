@@ -9,6 +9,13 @@ import "../Experience/experience.css";
 
 const companies = [
   {
+    duration: "Feb 2023 - Present · 3 mos",
+    responsibilities:
+      "Working on improving the coding efficiency of the Tononomy Foundation website and contributing to other open-source tools.",
+    position: "FRONTEND DEVELOPER",
+    Company: "Tonomy Foundation, Full-time",
+  },
+  {
     duration: "April 2022 - Sept 2022 · 6 mos",
     responsibilities:
       "Developed a responsive digital Marketing agency website. It was based on Metaverse, Web 2.0, offering reliable services with the best work experience and client feedback.",

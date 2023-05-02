@@ -1,9 +1,4 @@
-.container_exp{
-    background: rgb(166,164,213);
-    background: linear-gradient(90deg, rgba(166,164,213,1) 0%, rgba(150,127,127,1) 35%, rgba(188,187,195,1) 100%);
-  }
-  
-  #experience{
+#experience{
     text-align: center;
     font-size: 50px;
   }

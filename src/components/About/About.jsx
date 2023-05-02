@@ -43,17 +43,13 @@ function About() {
           </div>
 
           <p>
-            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used
-            in laying out print, graphic or web designs. The passage is
-            attributed to an unknown Lorem ipsum, or lipsum as it is sometimes
-            known, is dummy text used in laying out print, graphic or web
-            designs. The passage is attributed to an unknown Lorem ipsum, or
-            lipsum as it is sometimes known, is dummy text used in laying out
-            print, graphic or web designs. The passage is attributed to an
-            unknown
+            I am a front-end developer with a passion for exploration and a
+            solid drive to take on challenges. With an open and motivated
+            mindset, I seek out new opportunities to push the boundaries of my
+            skills and knowledge.
           </p>
           <a href="#contact" className="btn btn-primary btn">
-            Let's Talk
+            Let's Connect
           </a>
         </div>
       </div>
