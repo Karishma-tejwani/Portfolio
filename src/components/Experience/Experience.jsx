@@ -34,7 +34,7 @@ const companies = [
     responsibilities:
       "Developed different websites using MERN Stack, WordPress, and Wix. And also done Tasks on databases (MySQL, Oracle, MongoDB).",
     position: "FREELANCER",
-    Company: "Upwork · full-time",
+    Company: "Upwork · Full-time",
   },
 ];
 function Experience() {
@@ -49,14 +49,15 @@ function Experience() {
                 className="vertical-timeline-element--work"
                 contentStyle={{
                   background:
-                    "linear-gradient(0deg, rgba(87, 87, 147,1) 0%, rgba(87, 87, 147,1) 100%)",
+                    // "linear-gradient(0deg, rgba(218, 157, 167, 1) 0%, rgba(230, 45, 76, 1) 100%)",
+                    "linear-gradient(0deg, rgba(230, 45, 76, 1) 0%, rgba(218, 157, 167, 1) 100%)",
                   color: "#fff",
                 }}
                 contentArrowStyle={{ borderRight: "7px solid  gray" }}
                 date={Company.duration}
                 iconStyle={{
                   background:
-                    "radial-gradient(circle, rgba(87, 87, 147,1) 0%, rgba(87, 87, 147,1) 100%)",
+                    "radial-gradient(circle, rgba(218, 157, 167, 1) 0%, rgba(230, 45, 76, 1) 100%)",
                   color: "#fff",
                 }}
                 icon={<BsBag />}
