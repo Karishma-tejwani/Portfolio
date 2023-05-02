@@ -37,7 +37,7 @@ nav{
 }
 
 .navLinks a:hover{
-    color: #00ffff;
+    color: rgb(230, 45, 76);
 }
 
 .active-nav{

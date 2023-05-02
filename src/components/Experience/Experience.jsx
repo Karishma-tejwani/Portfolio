@@ -49,14 +49,14 @@ function Experience() {
                 className="vertical-timeline-element--work"
                 contentStyle={{
                   background:
-                    "linear-gradient(0deg, rgba(208,178,178,1) 0%, rgba(117,125,129,1) 100%)",
+                    "linear-gradient(0deg, rgba(87, 87, 147,1) 0%, rgba(87, 87, 147,1) 100%)",
                   color: "#fff",
                 }}
                 contentArrowStyle={{ borderRight: "7px solid  gray" }}
                 date={Company.duration}
                 iconStyle={{
                   background:
-                    "radial-gradient(circle, rgba(148,155,158,1) 0%, rgba(109,136,167,1) 100%)",
+                    "radial-gradient(circle, rgba(87, 87, 147,1) 0%, rgba(87, 87, 147,1) 100%)",
                   color: "#fff",
                 }}
                 icon={<BsBag />}
