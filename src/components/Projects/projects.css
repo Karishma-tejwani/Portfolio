@@ -27,6 +27,11 @@
     margin-bottom: 0.1rem;
 } */
 
+h1{
+    text-align: center;
+    margin: 2rem 2rem;
+}
+
 @media screen and (max-width: 1024px){
     .project_container{
         grid-template-columns: 1fr 1fr;
