@@ -20,6 +20,30 @@
     padding-bottom: 2em; */
 }
 
+.home__intro{
+    position: relative;
+    color: rgb(225, 219, 219);
+    z-index: 2;
+}
+
+.home__intro-title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.home__intro-line{
+    position: relative;
+    width: 9.2%;
+    height: 0.05em;
+    margin-right: 0.5em;
+    display: inline-block;
+    background: rgb(230, 45, 76);
+}
+
 .home__animated-alphabet-box{
     margin-left: 10%;
     text-transform: uppercase;
@@ -48,18 +72,69 @@
 }
 
 .home__description p{
-    min-width: 23em;
+    min-width: 15em;
 }
 
-
-
-/* .home-left{
-    margin-top: -3rem;
+.home__dev-text{
+    position: relative;
+    display: inline-block;
+    z-index: 2;
 }
 
-.home-left p{
-    margin: 1rem 0 3.5rem;
-} */
+.home__buttons{
+    position: relative;
+    margin-top: 1em;
+    margin-left: 10%;
+    z-index: 2;
+}
+
+.home__buttons a {
+    position: relative;
+    display: inline-block;
+    padding: 0.5em 0.5em;
+}
+
+.home__know-btn{
+    color: white;
+    margin-right: 1.5em;
+    background: rgb(230, 45, 76);
+    border: 0.1em solid rgb(230, 45, 76);
+    border-radius: 2rem;
+}
+
+.home__know-btn:hover{
+    background: transparent;
+    border: 0.1em solid rgb(87, 87, 147);
+    color: white;
+}
+
+.home__contact-btn{
+    color: white;
+    border: 0.1em solid rgb(230, 45, 76);
+    border-radius: 2rem;
+}
+
+.home__contact-btn:hover{
+    background: rgb(87, 87, 147);
+    border: 0.1em solid rgb(87, 87, 147);
+}
+
+.home__social{
+    display: flex;
+    margin-top: 1em;
+}
+  
+.home__linkedin, .home__github{
+    cursor: pointer;
+}
+  
+.home__linkedin svg:hover{
+    color: rgb(71, 71, 238);
+}
+  
+.home__github svg:hover{
+    color: rgb(230, 45, 76);
+}
 
 .home-right{
     display: grid;
@@ -84,46 +159,97 @@
     filter: blur(15px);
 }
 
-/* ----Button------ */
-/* .btn{
-    position: relative;
-    color: var(--color-light);
-    width: fit-content;
-    margin: 0 auto;
-    padding: 0.8rem 2rem;
-    background: rgb(51, 51, 164);
-    border-radius: 1.5rem;
-    transition: var(--transition);
-    cursor: pointer;
-    bottom: -1rem;
-}
-
-.btn:hover{
-    background: goldenrod;
-    color: var(--color-white);
-} */
-
-/* ----Social icons------- */
-.contact__social{
-    display: flex;
-    gap: 0.5em;
-    padding-left: 8%;
-}
+@keyframes socialAccounts {
+    0% {
+      width: 0.2em;
+    }
+    100% {
+      width: 3em;
+    }
+  }
   
-.contact__linkedin, .contact__github{
-    cursor: pointer;
-}
+  @keyframes textColorAnimation {
+    0% {
+      background: linear-gradient(107deg, #ff9933 30%, #ffffff, #138808 75.71%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      -webkit-filter: hue-rotate(0deg);
+    }
+    100% {
+      background: linear-gradient(107deg, #ff9933 30%, #ffffff, #138808 75.71%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      -webkit-filter: hue-rotate(360deg);
+    }
+  }
   
-.contact__linkedin svg:hover{
-    color: rgb(71, 71, 238);
-}
+  @keyframes textZoomAnimation {
+    0% {
+      transform: scale(10, 5);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
   
-.contact__github svg:hover{
-    color: rgb(230, 45, 76);
-}
+  @keyframes textInOutAnimation {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(10, 5);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+  
+  .alphabet-animated {
+    color: rgb(87, 87, 147);
+    animation: alphabetAnimation 0.7s ease-in-out 1;
+  }
+  
+  @keyframes alphabetAnimation {
+    0% {
+      transform: scale(1.2, 0.5);
+    }
+    16% {
+      transform: scale(1.2, 0.5);
+    }
+    25% {
+      transform: scale(1.2, 0.5);
+    }
+    32% {
+      transform: scale(0.8, 1.1);
+    }
+    48% {
+      transform: scale(0.95, 1);
+    }
+    64% {
+      transform: scale(0.8, 1.2);
+    }
+    80% {
+      transform: scale(1.15, 1);
+    }
+    87% {
+      transform: scale(1.15, 1);
+    }
+    90% {
+      /* This will add the shaking effect one time almost at the end   */
+      transform: scale(0.8, 1);
+    }
+    95% {
+      transform: scale(1.05, 1);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
 
 /* ----Media Queries---- */
-/* @media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px){
     .home{
         height: fit-content;
         padding: 12rem 0;
@@ -145,18 +271,11 @@
     .home_container{
         grid-template-columns: 1fr;
     }
-    .home-left{
-        text-align: center;
-        gap: 2rem;
-    }
     .home-img{
         margin-top: 30px;
     }
     .home-circle{
-        width: 10rem;
-        height: 10rem;
+        width: 22rem;
+        height: 22rem;
     }
-    .social-icon{
-        display: none;
-    }
-} */
+}

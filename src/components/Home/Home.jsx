@@ -1,6 +1,9 @@
 import React, { useEffect } from "react";
 import profile from "../../assets/profile.png";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
+import github from "../../assets/github.png";
+import linkedin from "../../assets/linkedin.png";
+import jira from "../../assets/jira.png";
 import "../Home/home.css";
 
 function Home() {
@@ -20,7 +23,7 @@ function Home() {
   return (
     <header className="home">
       <div className="home_container">
-        <div className="home_intro">
+        <div className="home__intro">
           <p className="home__intro-title">
             <span className="home__intro-line" data-aos="fade-down"></span>
             Hello, I am Karishma Tejwani
@@ -96,11 +99,11 @@ function Home() {
             data-aos="fade"
             data-aos-delay="1800"
           >
-            {/* <p>
+            <p>
               I'm a passionate and responsible Front-end Developer, with 2+
               years of experience. Skilled in developing highly responsive
               websites with elegant and efficient code.
-            </p> */}
+            </p>
           </div>
 
           <div className="home__buttons">
@@ -120,8 +123,8 @@ function Home() {
             >
               Contact Me
             </a>
-            <div className="contact__social">
-              <p className="contact__linkedin">
+            <div className="home__social">
+              <p className="home__linkedin">
                 <a
                   href="https://www.linkedin.com/in/karishma-tejwani-5424a2153/"
                   target="_blank"
@@ -130,24 +133,15 @@ function Home() {
                 </a>
               </p>
 
-              <p className="contact__github">
+              <p className="home__github">
                 <a href="https://github.com/Karishma-tejwani" target="_blank">
                   <BsGithub size={30} />
                 </a>
               </p>
             </div>
           </div>
-
-          {/* <div className="home-left">
-            <h3 style={{ color: "var(--color-light)" }}>Hello I'm</h3>
-            <h1>Karishma Tejwani</h1>
-            <h3 style={{ color: "gray" }}>Front-end Developer</h3>
-            <a href="#contact" className="btn">
-              Hire Me
-            </a>
-            <Socials />
-          </div> */}
         </div>
+
         <div className="home-right">
           <div className="home-circle"></div>
           <div className="home-img" data-aos="zoom-in" data-aos-delay="200">
