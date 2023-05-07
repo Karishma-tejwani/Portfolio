@@ -18,16 +18,11 @@ const Skill = () => {
         "JavaScript",
         "Reactjs",
         "Nextjs",
-        // "ES6",
-        // "Redux",
         "BootStrap5",
         "Material UI",
         "Ant Design",
-        "Postman",
         "JIRA",
         "Figma",
-        "MongoDB",
-        // "MySQL",
         "GIT",
         "GITHUB",
       ];
@@ -145,7 +140,7 @@ const Skill = () => {
               <div
                 className="tagcloud"
                 data-aos="zoom-in-up"
-                data-aos-offset="100"
+                data-aos-offset="150"
               ></div>
             </div>
           </div>
