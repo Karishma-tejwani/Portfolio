@@ -1,9 +1,11 @@
 .home{
-    width: 100vw;
+    /* width: 100vw; */
+    position: relative;
     height: calc(100vh - 3rem);
-    display: grid;
-    place-items: center;
+    /* display: grid; */
+    /* place-items: center; */
     margin-top: 3rem;
+    /* top: 0; */
 }
 
 .home_container{
@@ -13,15 +15,51 @@
     align-items: center;
     justify-content: space-around;
     gap: 6rem;
+    /* position: relative;
+    overflow: hidden;
+    padding-bottom: 2em; */
 }
 
-.home-left{
+.home__animated-alphabet-box{
+    margin-left: 10%;
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: 700;
+    /* letter-spacing: 0.1em; */
+}
+
+.home__animated-alphabet-box span:last-child {
+    color: #ffffff;
+    margin-right: 0.5em;
+}
+
+.home__alphabet{
+    display: inline-block;
+    color: rgb(230, 45, 76);
+}
+
+.home__alphabet--last{
+    margin-right: 0.15em;
+}
+
+.home__description{
+    margin-left: 10%;
+    width: 65%;
+}
+
+.home__description p{
+    min-width: 23em;
+}
+
+
+
+/* .home-left{
     margin-top: -3rem;
 }
 
 .home-left p{
     margin: 1rem 0 3.5rem;
-}
+} */
 
 .home-right{
     display: grid;
@@ -47,7 +85,7 @@
 }
 
 /* ----Button------ */
-.btn{
+/* .btn{
     position: relative;
     color: var(--color-light);
     width: fit-content;
@@ -63,19 +101,29 @@
 .btn:hover{
     background: goldenrod;
     color: var(--color-white);
-}
+} */
 
 /* ----Social icons------- */
-.social-icon{
+.contact__social{
     display: flex;
-    align-items: center;
-    gap: 1rem;
-    position: absolute;
-    bottom: 12rem;
+    gap: 0.5em;
+    padding-left: 8%;
+}
+  
+.contact__linkedin, .contact__github{
+    cursor: pointer;
+}
+  
+.contact__linkedin svg:hover{
+    color: rgb(71, 71, 238);
+}
+  
+.contact__github svg:hover{
+    color: rgb(230, 45, 76);
 }
 
 /* ----Media Queries---- */
-@media screen and (max-width: 1024px){
+/* @media screen and (max-width: 1024px){
     .home{
         height: fit-content;
         padding: 12rem 0;
@@ -111,4 +159,4 @@
     .social-icon{
         display: none;
     }
-}
+} */
