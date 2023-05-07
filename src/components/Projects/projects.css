@@ -4,6 +4,10 @@
     gap: 2rem;
 }
 
+#project h1{
+  text-transform: uppercase;
+}
+
 .project_item{
     background: var(--color-bg-variant);
     padding: 2.5rem;
