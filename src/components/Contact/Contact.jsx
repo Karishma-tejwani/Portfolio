@@ -32,10 +32,12 @@ const Contact = () => {
               </li>
 
               <li>
-                <FaEnvelope size={"20px"} />
-                <a href="mailto:karishmatejwani9@gmail.com" target="_blank">
-                  karishmatejwani9@gmail.com
-                </a>{" "}
+                <span>
+                  <FaEnvelope />
+                  <a href="mailto:karishmatejwani9@gmail.com" target="_blank">
+                    karishmatejwani9@gmail.com
+                  </a>{" "}
+                </span>
               </li>
 
               <li>
