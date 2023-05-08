@@ -20,7 +20,7 @@ const Contact = () => {
     e.target.reset();
   };
   return (
-    <section className="contact">
+    <section className="contact" id="contact">
       <h1 className="text-center">Get In Touch</h1>
       <div className="contact-container my-5">
         <div className="contact-info" data-aos="fade-up">
