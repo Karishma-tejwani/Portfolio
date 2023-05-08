@@ -1,5 +1,4 @@
 .about-heading{
-    font-size: 50px;
     text-align: center;
     text-transform: uppercase;
   }
@@ -10,24 +9,21 @@
     gap: 10%;
   }
   
-  .about{
-    width: 100%;
-    aspect-ratio: 1/1;
-    border-radius: 2rem;
-    background: linear-gradient(45deg, transparent, rgb(55, 55, 61), transparent);
-    display: grid;
-    place-items: center;
-  }
-  
   .about_img{
-    border-radius: 2rem;
+    background: linear-gradient(rgb(55, 55, 61), transparent);
+    width: 22rem;
+    height: 22rem;
+    position: absolute;
+    left: calc(30% - 15rem);
+    margin-top: 5rem;
+    border-radius: 3rem 0 3rem 0;
     overflow: hidden;
-    transform: rotate(10deg);
-    transition: var(--transition);
+    padding: 5rem 1.5rem 1.5re 1.5rem;
   }
   
   .about_img:hover{
-    transform: rotate(0);
+    transform: rotate(10deg);
+    background: linear-gradient(rgb(230, 45, 76), transparent);
   }
   
   .cards{
@@ -70,34 +66,40 @@
     margin: 2rem 0 2.6rem;
     color: rgb(131, 128, 128);
   }
+
+  .about-btn{
+    color: #ffffff;
+    padding: 0.5rem 0.5rem;
+    background: rgb(230, 45, 76);
+    border: 0.1em solid rgb(230, 45, 76);
+    border-radius: 2rem;
+  }
+
+  .about-btn:hover{
+    background: transparent;
+    border: 0.1em solid rgb(230, 45, 76);
+    color: white;
+  }
   
   @media screen and (max-width: 1024px){
     .about_container{
-      height: 125vh;
-      grid-template-columns: 1fr;
-      gap: 0;
-    }
-    .about{
-      width: 50%;
-      margin: 1rem auto 2rem;
-    }
-    .cards{
-      margin-top: 2%;
-    }
-    .about_content p{
-      margin: 1rem 0 1.5rem;
+      grid-template-columns: 40% 50%;
+      gap: 10%;
     }
   }
   
   @media screen and (max-width: 600px){
-    .about{
-      width: 65%;
-      margin: 0 auto 3rem;
+    .about_container{
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+    .about_img{
+      margin-left: 30%;
     }
     .cards{
       grid-template-columns: 1fr 1fr 1fr;
       gap: 1rem;
-      margin-top: -30%;
+      margin-top: 100%;
     }
     .about_content{
       text-align: center;

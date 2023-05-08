@@ -22,7 +22,7 @@ function About() {
                 <TbAward className="about_icon" />
               </center>
               <h5>Experience</h5>
-              <small>3+ years</small>
+              <small>2+ years</small>
             </article>
 
             <article className="card">
@@ -48,7 +48,12 @@ function About() {
             mindset, I seek out new opportunities to push the boundaries of my
             skills and knowledge.
           </p>
-          <a href="#contact" className="btn btn-primary btn">
+          <a
+            href="#contact"
+            className="about-btn"
+            data-aos="fade-up"
+            data-aos-delay="2000"
+          >
             Let's Connect
           </a>
         </div>
