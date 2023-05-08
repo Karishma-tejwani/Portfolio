@@ -12,7 +12,7 @@ import Home from "./components/Home/Home";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes>
           <Route
             exact
@@ -31,15 +31,15 @@ function App() {
             }
           />
         </Routes>
-      </BrowserRouter>
-      {/* <Navbar />
+      </BrowserRouter> */}
+      <Navbar />
       <Home />
       <About />
       <Skills />
       <Experience />
       <Projects />
-      <Contact /> */}
-      {/* <Footer /> */}
+      <Contact />
+      <Footer />
     </>
   );
 }

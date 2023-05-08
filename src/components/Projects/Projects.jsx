@@ -54,7 +54,7 @@ function Projects() {
   ];
 
   return (
-    <section id="project">
+    <section id="projects">
       <h1>Projects</h1>
       <div className="container project_container">
         {data.map(({ id, image, title, code, demo }) => {

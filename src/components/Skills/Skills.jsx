@@ -49,7 +49,7 @@ const Skill = () => {
   }, []);
   return (
     <>
-      <div className="skill">
+      <div id="skills" className="skill">
         <div className="skill__main-container">
           <div className="skill__header" id="skill__heading">
             <h1>Skills</h1>
