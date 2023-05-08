@@ -82,6 +82,11 @@
 }
 
 .home__buttons{
+  position: relative;
+  z-index: 2;
+}
+
+.home__buttons{
     position: relative;
     margin-top: 1em;
     margin-left: 10%;

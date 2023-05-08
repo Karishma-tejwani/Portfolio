@@ -1,9 +1,6 @@
 import React, { useEffect } from "react";
 import profile from "../../assets/profile.png";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
-import github from "../../assets/github.png";
-import linkedin from "../../assets/linkedin.png";
-import jira from "../../assets/jira.png";
 import "../Home/home.css";
 
 function Home() {
@@ -107,20 +104,10 @@ function Home() {
           </div>
 
           <div className="home__buttons">
-            <a
-              className="home__know-btn"
-              href="#about"
-              data-aos="fade-up"
-              data-aos-delay="1800"
-            >
+            <a className="home__know-btn" href="#about">
               Know more
             </a>
-            <a
-              className="home__contact-btn"
-              href="#contact"
-              data-aos="fade-up"
-              data-aos-delay="2000"
-            >
+            <a className="home__contact-btn" href="#contact">
               Contact Me
             </a>
             <div className="home__social">
