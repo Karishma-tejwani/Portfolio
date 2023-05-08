@@ -55,9 +55,12 @@ function Projects() {
 
   return (
     <section id="projects">
-      <h1 data-aos="fade-up" data-aos-delay="200">
-        Projects
-      </h1>
+      <div className="projects">
+        <h1 data-aos="fade-up" data-aos-delay="200">
+          Projects
+        </h1>
+      </div>
+
       <div className="container project_container">
         {data.map(({ id, image, title, code, demo }) => {
           return (
