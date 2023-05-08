@@ -93,11 +93,11 @@
 }
 
 .contact__linkedin svg:hover{
-  color: rgb(71, 71, 238);
+  color: rgb(87, 87, 147);
 }
 
 .contact__github svg:hover{
-  color: rgb(230, 45, 76);
+  color: rgb(87, 87, 147);
 }
 
 @media screen and (max-width: 1024px) {
