@@ -105,11 +105,11 @@
 .home__know-btn:hover{
     background: transparent;
     border: 0.1em solid rgb(87, 87, 147);
-    color: white;
+    color: rgb(87, 87, 147);
 }
 
 .home__contact-btn{
-    color: white;
+    color: rgb(230, 45, 76);
     border: 0.1em solid rgb(230, 45, 76);
     border-radius: 2rem;
 }
@@ -117,6 +117,7 @@
 .home__contact-btn:hover{
     background: rgb(87, 87, 147);
     border: 0.1em solid rgb(87, 87, 147);
+    color:white
 }
 
 .home__social{
