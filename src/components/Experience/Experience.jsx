@@ -40,7 +40,9 @@ const companies = [
 function Experience() {
   return (
     <div className="container_exp">
-      <h1 id="experience">Experience</h1>
+      <h1 id="experience" data-aos="fade-up" data-aos-delay="200">
+        Experience
+      </h1>
       <VerticalTimeline>
         {companies.map((Company) => {
           return (
