@@ -78,7 +78,7 @@
   .about-btn:hover{
     background: transparent;
     border: 0.1em solid rgb(230, 45, 76);
-    color: white;
+    color: rgb(230, 45, 76);
   }
   
   @media screen and (max-width: 1024px){
