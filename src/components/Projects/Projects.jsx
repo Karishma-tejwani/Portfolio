@@ -1,50 +1,55 @@
 import React from "react";
+import movie from "../../assets/movie.PNG";
+import fashion from "../../assets/fashion.png";
+import fyp from "../../assets/fyp.png";
+import dashboard from "../../assets/dashboard.PNG";
+import food from "../../assets/food.PNG";
+import game from "../../assets/game.PNG";
 import "../Projects/projects.css";
-import image1 from "../../assets/contact.jpg";
 
 function Projects() {
   const data = [
     {
       id: 1,
-      image: image1,
-      title: "Project Title",
-      code: "https://github.com",
-      demo: "https://github.com",
+      image: movie,
+      title: "Movie Nation",
+      code: "https://github.com/Karishma-tejwani/MovieNation",
+      demo: "https://movie-nation.vercel.app/",
     },
     {
       id: 2,
-      image: image1,
-      title: "Project Title",
-      code: "https://github.com",
-      demo: "https://github.com",
+      image: fashion,
+      title: "Karishma's Makeup Studio",
+      code: "https://drive.google.com/file/d/1ed9_jTek85_jOpVUBIaraVkG4b7AjaiD/view?usp=share_link",
+      demo: "https://drive.google.com/file/d/1ed9_jTek85_jOpVUBIaraVkG4b7AjaiD/view?usp=share_link",
     },
     {
       id: 3,
-      image: image1,
-      title: "Project Title",
-      code: "https://github.com",
-      demo: "https://github.com",
+      image: fyp,
+      title: "Quick Repair For Home",
+      code: "https://github.com/Karishma-tejwani/Quick_Repair",
+      demo: "https://drive.google.com/drive/folders/1eaWPpo9VIoyLy3Gw0_FfXIVmJZJQ_u_d?usp=sharing",
     },
     {
       id: 4,
-      image: image1,
-      title: "Project Title",
-      code: "https://github.com",
-      demo: "https://github.com",
+      image: dashboard,
+      title: "Record Master",
+      code: "https://github.com/Karishma-tejwani/admin-dashboard",
+      demo: "https://drive.google.com/file/d/1jWOSI5TdRfBPw2_APoJihO3kNcpznIDt/view?usp=sharing",
     },
     {
       id: 5,
-      image: image1,
-      title: "Project Title",
-      code: "https://github.com",
-      demo: "https://github.com",
+      image: food,
+      title: "Food Ordering",
+      code: "https://github.com/Karishma-tejwani/food-ordering",
+      demo: "https://github.com/Karishma-tejwani/food-ordering",
     },
     {
       id: 6,
-      image: image1,
-      title: "Project Title",
-      code: "https://github.com",
-      demo: "https://github.com",
+      image: game,
+      title: "Break Bricks Game",
+      code: "https://github.com/Karishma-tejwani/break-bricks",
+      demo: "https://github.comhttps://break-bricks.vercel.app/",
     },
   ];
 
@@ -59,11 +64,11 @@ function Projects() {
                 <img src={image} alt="project" />
               </div>
               <h3>{title}</h3>
-              <div className="project_item_cta">
-                <a href={code} className="btn" target="_blank">
+              <div className="project_buttons">
+                <a href={code} className="git-btn" target="_blank">
                   Github
                 </a>
-                <a href={demo} className="btn" target="_blank">
+                <a href={demo} className="demo-btn" target="_blank">
                   Live Demo
                 </a>
               </div>

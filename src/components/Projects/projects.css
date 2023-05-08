@@ -11,7 +11,7 @@
 .project_item{
     background: var(--color-bg-variant);
     padding: 2.5rem;
-    border-radius: 2rem;
+    border-radius: 2rem 0 2rem 0;
     border: 1ps solid transparent;
     transition: var(--transition);
 }
@@ -29,6 +29,36 @@ h1{
     text-align: center;
     margin: 2rem 2rem;
 }
+
+.project_buttons a {
+    padding: 0.2em 0.4em;
+}
+
+.git-btn{
+    color: white;
+    margin-right: 1.5em;
+    background: rgb(230, 45, 76);
+    border: 0.1em solid rgb(230, 45, 76);
+    border-radius: 2rem;
+}
+
+.git-btn:hover{
+    background: transparent;
+    border: 0.1em solid rgb(87, 87, 147);
+    color: white;
+}
+
+.demo-btn{
+    color: white;
+    border: 0.1em solid rgb(230, 45, 76);
+    border-radius: 2rem;
+}
+
+.demo-btn:hover{
+    background: rgb(87, 87, 147);
+    border: 0.1em solid rgb(87, 87, 147);
+}
+
 
 @media screen and (max-width: 1024px){
     .project_container{
