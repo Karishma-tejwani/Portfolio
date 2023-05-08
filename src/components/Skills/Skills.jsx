@@ -5,48 +5,47 @@ import "../Skills/skills.css";
 import TagCloud from "TagCloud";
 
 const Skill = () => {
+  const container = ".tagcloud";
+  let radii;
+
+  const texts = [
+    "HTML",
+    "CSS",
+    "SASS",
+    "JavaScript",
+    "Reactjs",
+    "Nextjs",
+    "BootStrap5",
+    "Material UI",
+    "Ant Design",
+    "JIRA",
+    "Figma",
+    "GIT",
+    "GITHUB",
+  ];
+
   // Animation settings for Text Cloud
   useEffect(() => {
-    const container = ".tagcloud";
-    let radii;
-
-    return () => {
-      const texts = [
-        "HTML",
-        "CSS",
-        "SASS",
-        "JavaScript",
-        "Reactjs",
-        "Nextjs",
-        "BootStrap5",
-        "Material UI",
-        "Ant Design",
-        "JIRA",
-        "Figma",
-        "GIT",
-        "GITHUB",
-      ];
-
-      // Decrasing 'radius' value for small screen devices
-      function radiusValue() {
-        if (window.screen.width <= 778) {
-          radii = 150;
-        } else {
-          radii = 290;
-        }
-        return radii;
-      }
-
-      const options = {
-        radius: radiusValue(),
-        maxSpeed: "normal",
-        initSpeed: "normal",
-        keep: true,
-      };
-
-      TagCloud(container, texts, options);
-    };
+    TagCloud(container, texts, options);
   }, []);
+
+  // Decrasing 'radius' value for small screen devices
+  const radiusValue = () => {
+    if (window.screen.width <= 800) {
+      radii = 150;
+    } else {
+      radii = 290;
+    }
+    return radii;
+  };
+
+  const options = {
+    radius: radiusValue(),
+    maxSpeed: "normal",
+    initSpeed: "normal",
+    keep: true,
+  };
+
   return (
     <>
       <div id="skills" className="skill">
@@ -136,7 +135,7 @@ const Skill = () => {
             </div>
 
             {/* 3D Text Cloud  */}
-            <div className="skill__cloud">
+            <div className="skill__cloud" id="skill__cloud">
               <div
                 className="tagcloud"
                 data-aos="zoom-in-up"
