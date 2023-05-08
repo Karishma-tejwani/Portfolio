@@ -6,12 +6,19 @@ import "../About/about.css";
 function About() {
   return (
     <section id="about">
-      <h1 className="about-heading">About Me</h1>
+      <h1 className="about-heading" data-aos="fade-up" data-aos-delay="200">
+        About Me
+      </h1>
 
       <div className="container about_container">
         <div className="about">
           <div className="about_img">
-            <img src={about} alt="about image" />
+            <img
+              src={about}
+              alt="about image"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            />
           </div>
         </div>
 
@@ -48,12 +55,7 @@ function About() {
             mindset, I seek out new opportunities to push the boundaries of my
             skills and knowledge.
           </p>
-          <a
-            href="#contact"
-            className="about-btn"
-            data-aos="fade-up"
-            data-aos-delay="2000"
-          >
+          <a href="#contact" className="about-btn">
             Let's Connect
           </a>
         </div>
