@@ -51,7 +51,9 @@ const Skill = () => {
       <div id="skills" className="skill">
         <div className="skill__main-container">
           <div className="skill__header" id="skill__heading">
-            <h1>Skills</h1>
+            <h1 data-aos="fade-up" data-aos-delay="200">
+              Skills
+            </h1>
           </div>
           <div className="skill__inner-container">
             <div className="skill__info">
