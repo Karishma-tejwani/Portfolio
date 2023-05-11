@@ -285,3 +285,10 @@
         height: 22rem;
     }
 }
+
+@media screen and (max-width: 400px){
+  .home-circle{
+      width: 20rem;
+      height: 20rem;
+  }
+}
