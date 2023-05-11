@@ -67,6 +67,12 @@ nav{
     .nav_toggle_btn svg{
         color: var(--color-white);
     }
+
+    nav{
+        width: 100%;
+        background-color: var(--color-bg-variant);
+    }
+    
     .navLinks{
         position: absolute;
         top: 90%;
