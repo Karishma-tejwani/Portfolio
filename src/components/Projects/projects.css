@@ -72,5 +72,8 @@ h1{
     .project_container{
         grid-template-columns: 1fr;
         gap: 1rem;
+        width: 80%;
+        margin-left: 5%;
     }
 }
+
