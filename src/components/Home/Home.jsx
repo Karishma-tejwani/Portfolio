@@ -22,10 +22,13 @@ function Home() {
       <div className="home_container">
         <div className="home__intro">
           <p className="home__intro-title">
-            <span className="home__intro-line" data-aos="fade-down"></span>
+            <span
+              className="home__intro-line mx-2 mt-2"
+              data-aos="fade-down"
+            ></span>
             Hello, I am Karishma Tejwani
           </p>
-          <p className="home__animated-alphabet-box">
+          <p className="home__animated-alphabet-box mx-5 p-2">
             <span
               className="home__alphabet"
               data-aos="fade-up"
@@ -83,7 +86,7 @@ function Home() {
               D
             </span>
             <span
-              className="home__developer-text"
+              className="home__developer-text mx-2"
               data-aos="zoom-out-down"
               data-aos-delay="1800"
             >
@@ -92,26 +95,32 @@ function Home() {
           </p>
 
           <div
-            className="home__description"
+            className="home__description mx-5 w-75"
             data-aos="fade"
             data-aos-delay="1800"
           >
             <p>
-              I'm a passionate and responsible Front-end Developer, with 2+
+              I'm a passionate and responsible Front-end Developer, with 3+
               years of experience. Skilled in developing highly responsive
               websites with elegant and efficient code.
             </p>
           </div>
 
-          <div className="home__buttons">
-            <a className="home__know-btn" href="#about">
+          <div className="home__buttons mx-5 mt-5">
+            <a
+              className="home__know-btn text-decoration-none p-2"
+              href="#about"
+            >
               Know more
             </a>
-            <a className="home__contact-btn" href="#contact">
+            <a
+              className="home__contact-btn text-decoration-none p-2"
+              href="#contact"
+            >
               Contact Me
             </a>
-            <div className="home__social">
-              <p className="home__linkedin">
+            <div className="home__social mt-3">
+              <p className="home__linkedin p-2">
                 <a
                   href="https://www.linkedin.com/in/karishma-tejwani-5424a2153/"
                   target="_blank"
@@ -120,7 +129,7 @@ function Home() {
                 </a>
               </p>
 
-              <p className="home__github">
+              <p className="home__github p-2">
                 <a href="https://github.com/Karishma-tejwani" target="_blank">
                   <BsGithub size={30} />
                 </a>

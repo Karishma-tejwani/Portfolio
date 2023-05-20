@@ -16,9 +16,10 @@
     --color-white: #f5f4f4e5;
     --color-light: rgba(255, 255, 255, 0.8);
     --color-pink: rgb(230, 45, 76);
-    --color-purple: rgb(139, 76, 139);
+    --color-purple: rgb(126, 54, 126);
     --color-green:rgb(64, 169, 97);
-    --color-blue: rgb(87, 87, 147);
+    --color-blue: rgb(68, 68, 156);
+    --color-gold: rgb(186, 142, 31);
 
     
     --transition: all 400ms ease;

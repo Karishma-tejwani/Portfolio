@@ -21,8 +21,8 @@
 
 .home__intro-title{
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    /* justify-content: flex-start; */
+    /* align-items: center; */
     text-transform: uppercase;
     font-size: 1em;
     font-weight: 300;
@@ -30,15 +30,15 @@
 
 .home__intro-line{
     position: relative;
-    width: 9.2%;
+    width: 6.5%;
     height: 0.05em;
-    margin-right: 0.5em;
+    /* margin-right: 0.5em; */
     display: inline-block;
     background: var(--color-blue);
 }
 
 .home__animated-alphabet-box{
-    margin-left: 10%;
+    /* margin-left: 10%; */
     text-transform: uppercase;
     font-size: 3em;
     font-weight: 700;
@@ -47,22 +47,23 @@
 
 .home__animated-alphabet-box span:last-child {
     color: #ffffff;
-    margin-right: 0.5em;
+    /* margin-right: 0.5em; */
 }
 
 .home__alphabet{
     display: inline-block;
+    /* color: rgb(186, 142, 31); */
     color: var(--color-blue);
 }
 
-.home__alphabet--last{
+/* .home__alphabet--last{
     margin-right: 0.15em;
-}
+} */
 
-.home__description{
+/* .home__description{
     margin-left: 10%;
     width: 65%;
-}
+} */
 
 .home__description p{
     min-width: 15em;
@@ -75,21 +76,16 @@
 }
 
 .home__buttons{
-  position: relative;
-  z-index: 2;
-}
-
-.home__buttons{
     position: relative;
-    margin-top: 1em;
-    margin-left: 10%;
+    /* margin-top: 1em;
+    margin-left: 10%; */
     z-index: 2;
 }
 
 .home__buttons a {
     position: relative;
     display: inline-block;
-    padding: 0.5em 0.5em;
+    /* padding: 0.5em 0.5em; */
 }
 
 .home__know-btn{
@@ -120,7 +116,7 @@
 
 .home__social{
     display: flex;
-    margin-top: 1em;
+    /* margin-top: 1em; */
 }
   
 .home__linkedin, .home__github{
@@ -248,7 +244,7 @@
   }
 
 /* ----Media Queries---- */
-@media screen and (max-width: 1024px){
+/* @media screen and (max-width: 1024px){
     .home{
         height: fit-content;
         padding: 12rem 0;
@@ -260,9 +256,9 @@
         width: 25rem;
         height: 25rem;
     }
-}
+} */
 
-@media screen and (max-width: 600px){
+/* @media screen and (max-width: 600px){
     .home{
         margin-top: 0;
         padding: 12rem 0;
@@ -277,11 +273,11 @@
         width: 22rem;
         height: 22rem;
     }
-}
+} */
 
-@media screen and (max-width: 400px){
+/* @media screen and (max-width: 400px){
   .home-circle{
       width: 20rem;
       height: 20rem;
   }
-}
+} */
