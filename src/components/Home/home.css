@@ -1,11 +1,7 @@
 .home{
-    /* width: 100vw; */
     position: relative;
     height: calc(100vh - 3rem);
-    /* display: grid; */
-    /* place-items: center; */
     margin-top: 3rem;
-    /* top: 0; */
 }
 
 .home_container{
@@ -15,9 +11,6 @@
     align-items: center;
     justify-content: space-around;
     gap: 6rem;
-    /* position: relative;
-    overflow: hidden;
-    padding-bottom: 2em; */
 }
 
 .home__intro{
@@ -41,7 +34,7 @@
     height: 0.05em;
     margin-right: 0.5em;
     display: inline-block;
-    background: rgb(230, 45, 76);
+    background: var(--color-blue);
 }
 
 .home__animated-alphabet-box{
@@ -59,7 +52,7 @@
 
 .home__alphabet{
     display: inline-block;
-    color: rgb(230, 45, 76);
+    color: var(--color-blue);
 }
 
 .home__alphabet--last{

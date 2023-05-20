@@ -15,6 +15,11 @@
     --color-primary-variant: rgba(10, 11, 11, 0.4);
     --color-white: #f5f4f4e5;
     --color-light: rgba(255, 255, 255, 0.8);
+    --color-pink: rgb(230, 45, 76);
+    --color-purple: rgb(139, 76, 139);
+    --color-green:rgb(64, 169, 97);
+    --color-blue: rgb(87, 87, 147);
+
     
     --transition: all 400ms ease;
 
