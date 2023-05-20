@@ -129,7 +129,7 @@ function Home() {
                 </a>
               </p>
 
-              <p className="home__github p-2">
+              <p className="home__github ">
                 <a href="https://github.com/Karishma-tejwani" target="_blank">
                   <BsGithub size={30} />
                 </a>
