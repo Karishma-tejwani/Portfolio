@@ -1,7 +1,6 @@
 .footer__container{
   position: relative;
-    text-align: center;
-    width: 100%;
-    background: rgb(230, 45, 76);
-    margin-top: 2%;
+  text-align: center;
+  width: 100%;
+  background: var(--color-pink);
 }
