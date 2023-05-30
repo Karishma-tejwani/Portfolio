@@ -19,7 +19,7 @@ function Projects() {
     {
       id: 2,
       image: fashion,
-      title: "Karishma's Makeup Studio",
+      title: "Makeup Studio",
       code: "https://drive.google.com/file/d/1ed9_jTek85_jOpVUBIaraVkG4b7AjaiD/view?usp=share_link",
       demo: "https://drive.google.com/file/d/1ed9_jTek85_jOpVUBIaraVkG4b7AjaiD/view?usp=share_link",
     },
