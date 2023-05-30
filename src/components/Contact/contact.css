@@ -19,20 +19,20 @@
   background: transparent;
   color: #ffffff;
   padding-bottom: 0.3em;
-  border-bottom: 0.03em solid rgb(230, 45, 76);
+  border-bottom: 0.03em solid var(--color-pink);
 }
 
 .contact__form-group textarea{
   background: transparent;
   color: #ffffff;
   padding-bottom: 0.3em;
-  border-bottom: 0.03em solid rgb(230, 45, 76);
+  border-bottom: 0.03em solid var(--color-pink);
 }
 
 .contact-btn{
   position: relative;
   font-family: "Alkatra";
-  background: rgb(230, 45, 76);
+  background: var(--color-pink);
   border-radius: 2rem;
   font-size: 1.1em;
   color: white;
@@ -42,9 +42,9 @@
 }
 
 .contact-btn:hover{
-  color: rgb(230, 45, 76);
+  color: var(--color-pink);
   background: transparent;
-  border: 0.07em solid rgb(230, 45, 76);
+  border: 0.07em solid var(--color-pink);
 }
 
 .contact-info{
@@ -74,18 +74,22 @@
   gap: 0.3em;
 }
 
-.contact-info-details svg {
-  color: rgb(230, 45, 76);
+.contact-info-details ul li span a{
+  text-decoration: none;
 }
 
-.contact-info-details svg:hover {
-  color: pink;
+.contact-info-details svg {
+  color: var(--color-pink);
+}
+
+.contact-info-details li:hover {
+  color: var(--color-pink);
 }
 
 .contact__social{
   display: flex;
-  gap: 0.5em;
-  padding-left: 8%;
+  gap: 1em;
+  padding-left: 3.5em;
 }
 
 .contact__linkedin, .contact__github{
@@ -93,11 +97,11 @@
 }
 
 .contact__linkedin svg:hover{
-  color: rgb(87, 87, 147);
+  color: var(--color-blue);
 }
 
 .contact__github svg:hover{
-  color: rgb(87, 87, 147);
+  color: var(--color-blue);
 }
 
 @media screen and (max-width: 1024px) {
