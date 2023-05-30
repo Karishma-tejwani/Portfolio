@@ -37,26 +37,28 @@ h1{
 .git-btn{
     color: white;
     margin-right: 1.5em;
-    background: rgb(230, 45, 76);
-    border: 0.1em solid rgb(230, 45, 76);
+    background: var(--color-pink);
+    border: 0.1em solid var(--color-pink);
     border-radius: 2rem;
+    text-decoration: none;
 }
 
 .git-btn:hover{
     background: transparent;
-    border: 0.1em solid rgb(87, 87, 147);
-    color: rgb(87, 87, 147);
+    border: 0.1em solid var(--color-blue);
+    color: var(--color-blue);
 }
 
 .demo-btn{
-    color: rgb(230, 45, 76);
-    border: 0.1em solid rgb(230, 45, 76);
+    color: var(--color-pink);
+    border: 0.1em solid var(--color-pink);
     border-radius: 2rem;
+    text-decoration: none;
 }
 
 .demo-btn:hover{
-    background: rgb(87, 87, 147);
-    border: 0.1em solid rgb(87, 87, 147);
+    background: var(--color-blue);
+    border: 0.1em solid var(--color-blue);
     color: white;
 }
 

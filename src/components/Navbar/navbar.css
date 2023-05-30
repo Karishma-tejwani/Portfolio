@@ -34,6 +34,7 @@ nav{
 
 .navLinks a{
     transition: var(--transition);
+    text-decoration: none;
 }
 
 .navLinks a:hover{

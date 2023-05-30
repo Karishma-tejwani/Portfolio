@@ -98,8 +98,8 @@
 
 .home__know-btn:hover{
     background: transparent;
-    border: 0.1em solid var(--color-gold);
-    color: var(--color-gold);
+    border: 0.1em solid var(--color-blue);
+    color: var(--color-blue);
 }
 
 .home__contact-btn{
@@ -109,8 +109,8 @@
 }
 
 .home__contact-btn:hover{
-    background: var(--color-gold);
-    border: 0.1em solid var(--color-gold);
+    background: var(--color-blue);
+    border: 0.1em solid var(--color-blue);
     color:white
 }
 
@@ -244,7 +244,7 @@
   }
 
 /* ----Media Queries---- */
-/* @media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px){
     .home{
         height: fit-content;
         padding: 12rem 0;
@@ -256,9 +256,9 @@
         width: 25rem;
         height: 25rem;
     }
-} */
+} 
 
-/* @media screen and (max-width: 600px){
+ @media screen and (max-width: 600px){
     .home{
         margin-top: 0;
         padding: 12rem 0;
@@ -273,11 +273,11 @@
         width: 22rem;
         height: 22rem;
     }
-} */
+} 
 
-/* @media screen and (max-width: 400px){
+@media screen and (max-width: 400px){
   .home-circle{
       width: 20rem;
       height: 20rem;
   }
-} */
+}
