@@ -1,4 +1,4 @@
-.about-heading{
+/* .about-heading{
     text-align: center;
     text-transform: uppercase;
     align-self: center;
@@ -38,7 +38,7 @@
   .card{
     background: linear-gradient(90deg, var(--color-primary) 0%, var(--color-primary)  35%, var(--color-primary) 100%);
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
     justify-content: center;
     transition: var(--transition);
@@ -89,76 +89,29 @@
       grid-template-columns: 40% 50%;
       gap: 10%;
     }
+    .card{
+      width: 9rem;
+    }
   }
-  
-  @media screen and (max-width: 600px){
-    .about_container{
+
+  @media screen and (max-width: 600px) {
+    .about_container {
       grid-template-columns: 1fr;
       gap: 0;
     }
-    .about_img{
-      margin-left: 30%;
+    .about_img {
+      display: block;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin-top: -0.5rem;
     }
-    .cards{
-      grid-template-columns: 1fr 1fr 1fr;
+    .cards {
+      grid-template-columns: repeat(3, 1fr);
       gap: 1rem;
-      margin-top: 100%;
     }
-    .about_content{
+    .about_content {
       text-align: center;
     }
-    .about_content p{
-      margin: 1.5rem 0;
-    }
-  }
-
-  @media screen and (max-width: 500px){
-    .about_img{
-      width: 18rem;
-      height: 18rem;
-      margin: 2rem 13rem;
-    }
-    .cards{
-      margin-top: 20rem;
-      gap: 0.5rem;
-    }
-    .card{
-      width: 8rem;
-      height: 10rem;
-    }
-  }
-
-  @media screen and (max-width: 400px){
-    .about_img{
-      width: 18rem;
-      height: 18rem;
-      margin: 1rem 13rem;
-    }
-
-    .about-heading{
-      margin: 1rem 0 0 5rem;
-    }
-
-    .cards{
-      margin-top: 20rem;
-      gap: 0.5rem;
-    }
-    .card{
-      width: 8rem;
-      height: 10rem;
-    }
-  }
-
-  @media screen and (max-width: 300px){
-    .about-heading{
-      width: 100%;
-      margin: 1rem 13rem;
-    }
-    .about_img{
-      margin: 1rem 14rem;
-    }
-    .card{
-      width: 8rem;
-      height: 10rem;
-    }
-  }
+  } */

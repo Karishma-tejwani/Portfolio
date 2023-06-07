@@ -6,7 +6,7 @@ import "../About/about.css";
 function About() {
   return (
     <section id="about">
-      <h1 className="about-heading" data-aos="fade-up" data-aos-delay="200">
+      <h1 className="about-heading centered" data-aos="fade-up" data-aos-delay="200">
         About Me
       </h1>
 

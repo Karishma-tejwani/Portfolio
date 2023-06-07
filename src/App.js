@@ -7,13 +7,15 @@ import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
+// import 'bootstrap/dist/css/bootstrap.css';
+
 
 function App() {
   return (
     <>
       <Navbar />
       <Home />
-      {/* <About /> */}
+      <About />
       {/* <Skills /> */}
       {/* <Experience /> */}
       {/* <Projects /> */}
