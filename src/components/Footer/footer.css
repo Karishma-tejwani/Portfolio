@@ -1,3 +1,8 @@
+.footer{
+  display: grid;
+  height: 2rem;
+}
+
 .footer__container{
   position: relative;
   text-align: center;
