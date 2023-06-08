@@ -79,3 +79,8 @@ h1{
     }
 }
 
+@media screen and (max-width: 400px){
+    .projects h1{
+        margin-bottom: 2rem;
+    }
+}
