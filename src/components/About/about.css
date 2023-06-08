@@ -111,3 +111,27 @@
     text-align: center;
   }
 }
+
+@media screen and (min-width: 400px) {
+  .about_img {
+    width: 15em;
+    height: 40vh;
+  }
+  .cards {
+    grid-template-columns: 1fr;
+    display: grid;
+    place-items: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .about_img {
+    width: 15em;
+    height: 40vh;
+  }
+  .cards {
+    grid-template-columns: 1fr;
+    display: grid;
+    place-items: center;
+  }
+}
