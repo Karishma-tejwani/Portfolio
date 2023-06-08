@@ -1,117 +1,113 @@
-/* .about-heading{
-    text-align: center;
-    text-transform: uppercase;
-    align-self: center;
-    justify-self: center;
-  }
+.about-heading{
+  text-transform: uppercase;
+}
   
+.about_container{
+  display: grid;
+  grid-template-columns: minmax(400px, 1fr) minmax(400px, 1fr);
+  grid-column-gap: 1.5em;
+  margin-bottom: 1.5em;
+}
+  
+.about_img{
+  background: linear-gradient(rgb(55, 55, 61), transparent);
+  width: 22rem;
+  height: 22rem;
+  position: absolute;
+  left: calc(30% - 15rem);
+  border-radius: 3rem 0 3rem 0;
+  overflow: hidden;
+  padding: 5rem 1.5rem 1.5re 1.5rem;
+}
+  
+.about_img:hover{
+  transform: rotate(10deg);
+  background: linear-gradient(rgb(230, 45, 76), transparent);
+}
+  
+.cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 1.5rem;
+}
+  
+.card{
+  background: linear-gradient(90deg, var(--color-primary) 0%, var(--color-primary)  35%, var(--color-primary) 100%);
+  border-radius: 1rem;
+  padding: 1rem;
+  text-align: center;
+  justify-content: center;
+  transition: var(--transition);
+  cursor: pointer;
+}
+  
+.card:hover{
+  background: transparent;
+}
+  
+.about_icon{
+  color: rgb(150, 148, 148);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+  
+.card h5{
+  font-size: 0.95rem;
+}
+  
+.card small{
+  font-size: 0.75rem;
+  color: rgb(85, 82, 82);
+}
+
+.about_content p{
+  margin: 2rem 0 2.6rem;
+  color: rgb(131, 128, 128);
+}
+
+.about-btn{
+  color: #ffffff;
+  padding: 0.5rem 0.5rem;
+  background: rgb(230, 45, 76);
+  border: 0.1em solid rgb(230, 45, 76);
+  border-radius: 2rem;
+  text-decoration: none;
+}
+
+.about-btn:hover{
+  background: transparent;
+  border: 0.1em solid rgb(230, 45, 76);
+  color: rgb(230, 45, 76);
+}
+  
+@media screen and (max-width: 1024px){
   .about_container{
-    display: grid;
-    grid-template-columns: 40% 45%;
+    grid-template-columns: 40% 50%;
     gap: 10%;
   }
-  
-  .about_img{
-    background: linear-gradient(rgb(55, 55, 61), transparent);
-    width: 22rem;
-    height: 22rem;
-    position: absolute;
-    left: calc(30% - 15rem);
-    margin-top: 5rem;
-    border-radius: 3rem 0 3rem 0;
-    overflow: hidden;
-    padding: 5rem 1.5rem 1.5re 1.5rem;
-  }
-  
-  .about_img:hover{
-    transform: rotate(10deg);
-    background: linear-gradient(rgb(230, 45, 76), transparent);
-  }
-  
-  .cards{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
-    margin-top: 15%;
-  }
-  
   .card{
-    background: linear-gradient(90deg, var(--color-primary) 0%, var(--color-primary)  35%, var(--color-primary) 100%);
-    border-radius: 1rem;
-    padding: 1rem;
+    width: 9rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about_container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .about_img {
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -0.5rem;
+  }
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  .about_content {
     text-align: center;
-    justify-content: center;
-    transition: var(--transition);
-    cursor: pointer;
   }
-  
-  .card:hover{
-    background: transparent;
-  }
-  
-  .about_icon{
-    color: rgb(150, 148, 148);
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
-  }
-  
-  .card h5{
-    font-size: 0.95rem;
-  }
-  
-  .card small{
-    font-size: 0.75rem;
-    color: rgb(85, 82, 82);
-  }
-  
-  .about_content p{
-    margin: 2rem 0 2.6rem;
-    color: rgb(131, 128, 128);
-  }
-
-  .about-btn{
-    color: #ffffff;
-    padding: 0.5rem 0.5rem;
-    background: rgb(230, 45, 76);
-    border: 0.1em solid rgb(230, 45, 76);
-    border-radius: 2rem;
-    text-decoration: none;
-  }
-
-  .about-btn:hover{
-    background: transparent;
-    border: 0.1em solid rgb(230, 45, 76);
-    color: rgb(230, 45, 76);
-  }
-  
-  @media screen and (max-width: 1024px){
-    .about_container{
-      grid-template-columns: 40% 50%;
-      gap: 10%;
-    }
-    .card{
-      width: 9rem;
-    }
-  }
-
-  @media screen and (max-width: 600px) {
-    .about_container {
-      grid-template-columns: 1fr;
-      gap: 0;
-    }
-    .about_img {
-      display: block;
-      position: relative;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      margin-top: -0.5rem;
-    }
-    .cards {
-      grid-template-columns: repeat(3, 1fr);
-      gap: 1rem;
-    }
-    .about_content {
-      text-align: center;
-    }
-  } */
+}

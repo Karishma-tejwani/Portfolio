@@ -1,7 +1,3 @@
-.footer__container{
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  height: 2rem;
+.card-footer{
   background: var(--color-pink);
 }
