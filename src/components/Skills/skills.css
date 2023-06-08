@@ -120,12 +120,6 @@
         width: 50%;
       }
     }
-    @media screen and (max-width: 768px) {
-      .skill__header {
-        font-size: 1.33em;
-      }
-    }
-  
     @media screen and (max-width: 600px) {
       .skill__cloud{
         align-self: center;
@@ -135,18 +129,16 @@
       }
     }
 
-    @media screen and (max-width: 538px) {
-      .skill__details-container {
-        flex-direction: column;
-      }
-      .skill__details {
-        width: 100%;
-      }
+    @media screen and (max-width: 412px) {
+      .skill__cloud{
+        display: inline;
+        /* width: 2rem; */
+       }
     }
 
     @media screen and (max-width: 400px) {
       .skill__cloud{
-        margin-left: 30%;
+        place-items: center;
        }
     }
   
