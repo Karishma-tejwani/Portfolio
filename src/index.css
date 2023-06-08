@@ -42,7 +42,6 @@ body{
     background: var(--color-bg);
     color: var(--color-light);
     line-height: 1.7;
-    height: 270vh;
 }
 
 .container{
