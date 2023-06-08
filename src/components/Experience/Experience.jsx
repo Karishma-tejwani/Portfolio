@@ -51,7 +51,6 @@ function Experience() {
                 className="vertical-timeline-element--work"
                 contentStyle={{
                   background:
-                    // "linear-gradient(0deg, rgba(218, 157, 167, 1) 0%, rgba(230, 45, 76, 1) 100%)",
                     "linear-gradient(0deg, #F9629F 0%, rgba(218, 157, 167, 1) 100%)",
                   color: "#fff",
                 }}
