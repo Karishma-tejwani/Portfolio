@@ -120,6 +120,7 @@
         width: 50%;
       }
     }
+    
     @media screen and (max-width: 600px) {
       .skill__cloud{
         align-self: center;
@@ -127,13 +128,6 @@
       .skill__details {
         width: 100%;
       }
-    }
-
-    @media screen and (max-width: 412px) {
-      .skill__cloud{
-        display: inline;
-        /* width: 2rem; */
-       }
     }
 
     @media screen and (max-width: 400px) {
