@@ -171,7 +171,7 @@
 @media screen and (max-width: 400px) {
   .about_img {
     width: 15em;
-    height: 40vh;
+    margin-top: 6rem;
   }
   .cards {
     grid-template-columns: 1fr;
