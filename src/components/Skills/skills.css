@@ -123,6 +123,7 @@
     
     @media screen and (max-width: 600px) {
       .skill__cloud{
+        width: 70%;
         align-self: center;
        }
       .skill__details {
@@ -132,6 +133,7 @@
 
     @media screen and (max-width: 400px) {
       .skill__cloud{
+        width: 50%;
         place-items: center;
        }
     }
