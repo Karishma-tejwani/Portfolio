@@ -79,6 +79,12 @@ h1{
     }
 }
 
+@media screen and (max-width: 500px){
+    .project_container{
+        margin-top: 10rem;
+    }
+}
+
 @media screen and (max-width: 400px){
     .project_container{
         margin-top: 10rem;
