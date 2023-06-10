@@ -49,7 +49,7 @@ function Projects() {
       image: game,
       title: "Break Bricks Game",
       code: "https://github.com/Karishma-tejwani/break-bricks",
-      demo: "https://github.comhttps://break-bricks.vercel.app/",
+      demo: "https://break-bricks.vercel.app/",
     },
   ];
 
