@@ -133,8 +133,7 @@
 
     @media screen and (max-width: 400px) {
       .skill__cloud{
-        width: 50%;
-        place-items: center;
+        align-items: flex-start;
        }
     }
   
