@@ -65,7 +65,7 @@ function Projects() {
       image: fb,
       title: 'Facebook Clone',
       code: 'https://github.com/Karishma-tejwani/fb-clone',
-      demo: 'https://fb-clone-m2b6r2eh7-karishma-tejwani.vercel.app',
+      demo: 'https://fb-clone-fmjv6y15o-karishma-tejwani.vercel.app/',
     },
   ];
 
