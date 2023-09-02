@@ -64,7 +64,7 @@ function Projects() {
       id: 8,
       image: fb,
       title: 'Facebook Clone',
-      code: 'https://github.com/Karishma-tejwani/break-bricks',
+      code: 'https://github.com/Karishma-tejwani/fb-clone',
       demo: 'https://fb-clone-m2b6r2eh7-karishma-tejwani.vercel.app',
     },
   ];
