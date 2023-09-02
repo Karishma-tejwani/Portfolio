@@ -124,13 +124,14 @@ function Home() {
                 <a
                   href="https://www.linkedin.com/in/karishma-tejwani-5424a2153/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <BsLinkedin size={30} />
                 </a>
               </p>
 
               <p className="home__github p-2">
-                <a href="https://github.com/Karishma-tejwani" target="_blank">
+                <a href="https://github.com/Karishma-tejwani" target="_blank" rel="noreferrer">
                   <BsGithub size={30} />
                 </a>
               </p>
