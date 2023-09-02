@@ -9,10 +9,10 @@ import '../Experience/experience.css';
 
 const companies = [
   {
-    duration: 'Feb 2023 - Present',
+    duration: 'Feb 2023 - Aug 2023',
     responsibilities:
       "Developed and managed the company's dashboard, overseeing projects, analytics, and timelines. Developed the Aqary website emphasizing design, code reusability, and efficiency, utilizing various libraries for enhanced functionality.",
-    position: 'MERN STACK DEVELOPER',
+    position: 'FRONTEND DEVELOPER',
     Company: 'Fine Home Real Estate, UAE',
   },
   {

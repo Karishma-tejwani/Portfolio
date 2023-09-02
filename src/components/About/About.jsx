@@ -15,7 +15,7 @@ function About() {
           <div className="about_img">
             <img
               src={about}
-              alt="about image"
+              alt="about"
               data-aos="zoom-in"
               data-aos-delay="100"
             />
@@ -29,7 +29,7 @@ function About() {
                 <TbAward className="about_icon" />
               </center>
               <h5>Experience</h5>
-              <small>2+ years</small>
+              <small>4+ years</small>
             </article>
 
             <article className="card">

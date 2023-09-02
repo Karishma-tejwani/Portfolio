@@ -1,18 +1,18 @@
-import React, { useEffect } from "react";
-import profile from "../../assets/profile.png";
-import { BsLinkedin, BsGithub } from "react-icons/bs";
-import "../Home/home.css";
+import React, { useEffect } from 'react';
+import profile from '../../assets/profile.png';
+import { BsLinkedin, BsGithub } from 'react-icons/bs';
+import '../Home/home.css';
 
 function Home() {
   useEffect(() => {
-    const alphbets = document.getElementsByClassName("home__alphabet");
+    const alphbets = document.getElementsByClassName('home__alphabet');
     for (let i = 0; i <= alphbets.length; i++) {
-      alphbets[i]?.addEventListener("animationend", function () {
-        alphbets[i].classList.remove("alphabet-animated");
+      alphbets[i]?.addEventListener('animationend', function () {
+        alphbets[i].classList.remove('alphabet-animated');
       });
 
-      alphbets[i]?.addEventListener("mouseover", function () {
-        alphbets[i].classList.add("alphabet-animated");
+      alphbets[i]?.addEventListener('mouseover', function () {
+        alphbets[i].classList.add('alphabet-animated');
       });
     }
   }, []);
@@ -23,12 +23,12 @@ function Home() {
         <div className="home__intro">
           <p className="home__intro-title">
             <span
-              className="home__intro-line mx-2 mt-2"
+              className="home__intro-line mx-2 my-2"
               data-aos="fade-down"
             ></span>
             Hello, I am Karishma Tejwani
           </p>
-          <p className="home__animated-alphabet-box mx-5 p-2">
+          <p className="home__animated-alphabet-box mx-5 p-1">
             <span
               className="home__alphabet"
               data-aos="fade-up"
@@ -100,7 +100,7 @@ function Home() {
             data-aos-delay="1800"
           >
             <p>
-              I'm a passionate and responsible Front-end Developer, with 3+
+              I'm a passionate and responsible Front-end Developer, with
               years of experience. Skilled in developing highly responsive
               websites with elegant and efficient code.
             </p>

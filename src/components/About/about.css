@@ -1,15 +1,14 @@
-.about-heading{
+.about-heading {
   text-transform: uppercase;
 }
-  
-.about_container{
+
+.about_container {
   display: grid;
   grid-template-columns: minmax(400px, 1fr) minmax(400px, 1fr);
   grid-column-gap: 1.5em;
-
 }
-  
-.about_img{
+
+.about_img {
   background: linear-gradient(rgb(55, 55, 61), transparent);
   width: 22rem;
   height: 22rem;
@@ -18,22 +17,28 @@
   border-radius: 3rem 0 3rem 0;
   overflow: hidden;
   padding: 5rem 1.5rem 1.5re 1.5rem;
+  margin-top: 5rem;
 }
-  
-.about_img:hover{
+
+.about_img:hover {
   transform: rotate(10deg);
   background: linear-gradient(rgb(230, 45, 76), transparent);
 }
-  
-.cards{
+
+.cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 1.5rem;
   margin-top: 5rem;
 }
-  
-.card{
-  background: linear-gradient(90deg, var(--color-primary) 0%, var(--color-primary)  35%, var(--color-primary) 100%);
+
+.card {
+  background: linear-gradient(
+    90deg,
+    var(--color-primary) 0%,
+    var(--color-primary) 35%,
+    var(--color-primary) 100%
+  );
   border-radius: 1rem;
   padding: 1rem;
   text-align: center;
@@ -41,32 +46,32 @@
   transition: var(--transition);
   cursor: pointer;
 }
-  
-.card:hover{
+
+.card:hover {
   background: transparent;
 }
-  
-.about_icon{
+
+.about_icon {
   color: rgb(150, 148, 148);
   font-size: 1.4rem;
   margin-bottom: 1rem;
 }
-  
-.card h5{
+
+.card h5 {
   font-size: 0.95rem;
 }
-  
-.card small{
+
+.card small {
   font-size: 0.75rem;
   color: rgb(85, 82, 82);
 }
 
-.about_content p{
+.about_content p {
   margin: 2rem 0 2.6rem;
   color: rgb(131, 128, 128);
 }
 
-.about-btn{
+.about-btn {
   color: #ffffff;
   padding: 0.5rem 0.5rem;
   background: rgb(230, 45, 76);
@@ -75,18 +80,18 @@
   text-decoration: none;
 }
 
-.about-btn:hover{
+.about-btn:hover {
   background: transparent;
   border: 0.1em solid rgb(230, 45, 76);
   color: rgb(230, 45, 76);
 }
-  
-@media screen and (max-width: 1024px){
-  .about_container{
+
+@media screen and (max-width: 1024px) {
+  .about_container {
     grid-template-columns: 40% 50%;
     gap: 10%;
   }
-  .card{
+  .card {
     width: 9rem;
   }
 }
@@ -104,7 +109,7 @@
     transform: translate(-50%, -50%);
   }
   .cards {
-    display:inline-flex;
+    display: inline-flex;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 1rem;
   }
@@ -126,7 +131,7 @@
     transform: translate(-50%, -50%);
   }
   .cards {
-    display:inline-flex;
+    display: inline-flex;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 1rem;
   }
