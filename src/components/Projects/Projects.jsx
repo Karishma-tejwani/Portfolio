@@ -7,6 +7,7 @@ import food from '../../assets/food.PNG';
 import game from '../../assets/game.PNG';
 import fb from '../../assets/fb.PNG';
 import blog from '../../assets/blog.JPG';
+import elite from '../../assets/elite.PNG';
 import '../Projects/projects.css';
 
 function Projects() {
@@ -67,6 +68,13 @@ function Projects() {
       code: 'https://github.com/Karishma-tejwani/fb-clone',
       demo: 'https://fb-clone-fmjv6y15o-karishma-tejwani.vercel.app/',
     },
+    {
+      id: 9,
+      image: elite,
+      title: 'Real Estate',
+      code: 'https://github.com/Karishma-tejwani/real-estate',
+      demo: 'https://real-estate-kv3m0wqdl-karishma-tejwani.vercel.app/',
+    },
   ];
 
   return (
@@ -86,10 +94,20 @@ function Projects() {
               </div>
               <h3>{title}</h3>
               <div className="project_buttons">
-                <a href={code} className="git-btn" target="_blank" rel="noreferrer">
+                <a
+                  href={code}
+                  className="git-btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Github
                 </a>
-                <a href={demo} className="demo-btn" target="_blank" rel="noreferrer">
+                <a
+                  href={demo}
+                  className="demo-btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Live Demo
                 </a>
               </div>
