@@ -37,7 +37,7 @@ const companies = [
     Company: 'Perfekt Solutions · Internship',
   },
   {
-    duration: 'Mar 2016 - Jan 2023',
+    duration: 'Mar 2019 - Jan 2023',
     responsibilities:
       'Developed Movie Nation Website, Traveling website, Restaurant website, and Break-Bricks Game. Done Tasks on databases. Relational model, ER-Diagrams, Simple and Complex Queries.',
     position: 'REMOTE DEVELOPER',
